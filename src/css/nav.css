@@ -1,0 +1,67 @@
+header.nav-header {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav.main-nav  {
+  display: flex;
+  align-items: center;
+}
+
+nav.main-nav > ul,
+nav.footer-nav > ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav.main-nav ul li {
+  list-style: none;
+}
+
+nav.main-nav ul li a {
+   text-decoration: none;
+ }
+
+nav.main-nav ul > li > a {
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px;
+}
+
+nav.main-nav > ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav ul.main-menu {
+  padding-right: 10px;
+  border-right: 1px solid rgb(255 255 255 / 30%);
+}
+
+nav ul.user-login {
+  padding-left: 10px;
+}
+
+/** User Login **/
+
+i {
+  color: white;
+}
+
+/** Mobile Menu **/

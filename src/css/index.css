@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "const.css";
+
+@import "~@fortawesome/fontawesome-pro/css/all.css";
+
+@import "sections.css";
+@import "nav.css";
+@import "hero.css";
+@import "grid.css";
+@import "type.css";
+@import "item.css";
+@import "button.css";
+@import "info-box.css";
+@import "footer.css";
+
+.html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@layer components {
+  .do-4 {
+    @apply grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4;
+  }
+
+  .do-2 {
+    @apply grid lg:grid-cols-2 md:grid-cols-1 gap-4;
+  }
+}

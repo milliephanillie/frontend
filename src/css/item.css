@@ -1,0 +1,17 @@
+.item-title-wrapper {
+  text-align: center;
+}
+
+.item-content {
+  padding: 10px 0;
+}
+
+.item-image img {
+  width: 100%;
+}
+
+.product-tag span {
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: uppercase;
+}

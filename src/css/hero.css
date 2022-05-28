@@ -1,0 +1,54 @@
+section.hero {
+  padding: 155px 0 80px 0;
+}
+
+.hero .page-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .page-title-header h1,
+.hero .page-title-header p,
+.hero .page-title-byline p {
+  color: white;
+}
+
+.hero .page-title-header {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  bottom: 0;
+}
+
+.hero .page-title-header:after {
+  content: '';
+  height: 2px;
+  background-color: white;
+  width: 16%;
+  position: absolute;
+  justify-content: center;
+  left: 42%;
+  bottom: 0;
+}
+
+.hero .page-title-header h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+
+.hero .page-title-header p {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.hero .page-title-byline {
+  text-transform: uppercase;
+}
+
+.hero .page-title-byline a {
+  font-style: italic;
+  text-decoration: underline;
+  color: white;
+}

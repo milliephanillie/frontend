@@ -1,0 +1,17 @@
+.root,
+#root,
+#docs-root,
+:root {
+  --brandprimary: #082036;
+  --brandsecondary: red;
+  --textprimary: black;
+  --textgray: gray;
+
+  --sizeprimary: 18px;
+  --sizesecondary: 28px;
+  --sizelarge: 48px;
+
+  --h1: 48px;
+  --h3: 21px;
+  --p: 18px;
+}
